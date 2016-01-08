@@ -1,0 +1,18 @@
+
+RewriteEngine on
+
+
+RewriteRule ^maison-(.*)-(.*)-(.*)-(.*)-(.*).html  index.php?cmd=zobrazdum&lmenu=$2&id=$4&menu=$5&title=$1 
+RewriteRule ^menu-(.*)-(.*).html  index.php?cmd=zobrazmenu&lmenu=$2&title=$1 
+RewriteRule ^mzpartner-(.*)-(.*).html  index.php?cmd=zobrazmmenu&idm=$2&title=$1 
+RewriteRule ^mz-(.*)-(.*)-(.*).html  index.php?cmd=zobrazmmenu&idm=$2&idsm=$3&title=$1
+ 
+ 
+ 
+ 
+
+
+
+ 
+
+

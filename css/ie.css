@@ -1,0 +1,11 @@
+.slider-box,
+.caption,
+#slides {behavior: url(js/PIE.htc);}
+#main-menu,
+.button,
+.img-border2,
+.slider-box-links a {behavior: url(js/PIE.htc);position:relative;}
+
+#search input {padding: 3px 30px 8px 10px;}
+
+body {min-width: 960px;}
